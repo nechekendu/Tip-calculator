@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h2>TIP CALCULATOR</h2>
+        <div id="calculator">
+            <form>
+            <p>How much was your bill?</p>
+            
+            <p>$<input id="bill" type="text" placeholder="Bill Amount"></p>
+            
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1"><p>How was your Service?</p></label>
+    <select class="form-control" id="service">
+        <option disabled selected value=""> --Choose an Option--</option>
+      <option value="0.08">Poor</option>
+      <option value="0.16">Fair</option>
+      <option value="0.24">Good</option>
+      <option value="0.32">Very-Good</option>
+      <option value="0.4">Excellent</option>
+    </select>
+</form>
+          <p>How many people are sharing the Bill?</p>
+          <p><input id="people" type="number" placeholder="Number of People"> people</p>
+  </div>
+         <button id="calculate">CALCULATE</button>
+        </div>
+        <p id="paragraph"></p>
+    </div>
+
+    <!-- ...Javascript/Jquery files... -->
+<script src="script.js"></script>
+</body>
+</html>

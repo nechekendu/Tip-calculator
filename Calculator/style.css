@@ -1,0 +1,58 @@
+body{
+    background-color: thistle;
+    padding: 32px;
+} 
+.container {
+    width:  380px;
+    height: 470px;
+    border: 2px solid white;
+    border-radius: 25px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+h2 {
+    background: rgb(146, 40, 137);
+    color: white;
+    margin: 0;
+    padding: 10px 60px;
+    font-size: 16px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+p {
+    padding-left: 20px;
+}
+form input[type="text"] {
+    width: 90px;
+}
+input {
+    padding: 10px;
+}
+#service {
+    padding: 13px 13px 20px 20px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+button {
+    font-weight: bold;
+    display: block;
+    margin: 20px auto;
+    background: rgb(255, 151, 177);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    color: white;
+}
+button:hover {
+    background: #bd2b85;
+    border-bottom-color: #fff;
+}
+.dollarSign {
+    display: inline;
+    padding: 2px;
+}
+#bill {
+    font-size: 16px;
+    background-color: #f7f7f7;
+    }
